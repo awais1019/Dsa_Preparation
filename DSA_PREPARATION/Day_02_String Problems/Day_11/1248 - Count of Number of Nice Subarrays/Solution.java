@@ -19,7 +19,6 @@ class Solution {
            {
              if(nums[left]%2!=0)
              odd--;
-
              left++;
            }
            count+=(rigth-left+1);
